@@ -38,13 +38,12 @@ nav, #nav-left, #nav-right {
     font-weight: bold;
 }
 
-/* SEARCH AREA */
+/* SEARCH AREA STYLING */
 #main-section {
     text-align: center;
     margin-top: 200px;
 }
 
-/* LOGO */
 #search-bar {
     margin: 20px;
     border: 2px solid rgb(223,225,229);
@@ -87,4 +86,28 @@ nav, #nav-left, #nav-right {
 
 #search-submit:hover {
     border: 1px solid grey;
+}
+
+/* FOOTER STYLING */
+footer {
+    position: fixed;
+    bottom: 0;
+    left:  0;
+    right: 0;
+    padding: 20px;
+    background-color: rgb(235, 233, 233);
+}
+
+footer, #footer-left, #footer-right {
+    display: flex;
+    align-items: center; 
+    font-size: 13px;
+}
+
+#footer-right {
+    margin: 0 0 0 auto;
+}
+
+.footer-link {
+    padding: 20px;
 }
