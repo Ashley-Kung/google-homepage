@@ -1,0 +1,13 @@
+#title {
+    color: red;
+}
+nav, #nav-left, #nav-right {
+    display: flex;
+    align-items: center;
+}
+#nav-right {
+    margin: 0 0 0 auto;
+}
+.nav-link {
+    padding: 10px;
+}
