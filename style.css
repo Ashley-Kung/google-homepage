@@ -1,13 +1,32 @@
-#title {
-    color: red;
+/* My first HTML/CSS project */
+/* Comments added to help me learn and reference */
+
+body {
+    font-family: Arial, sans-serif;
 }
+a {
+    color: #575757;
+    text-decoration: none;
+}
+
+/* NAVIGATION BAR STYLING */
 nav, #nav-left, #nav-right {
-    display: flex;
-    align-items: center;
+    display: flex; /* put children elements in a row */
+    align-items: center; 
+    font-size: 13px;
 }
 #nav-right {
-    margin: 0 0 0 auto;
+    margin: 0 0 0 auto; /*push to the right */
 }
 .nav-link {
     padding: 10px;
+}
+#sign-in {
+    background-color: #4287f5;
+    border: none;
+    border-radius: 3px;
+    width: 75px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
 }
