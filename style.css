@@ -10,6 +10,13 @@ a {
 }
 
 /* NAVIGATION BAR STYLING */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 10px;
+}
 nav, #nav-left, #nav-right {
     display: flex; /* put children elements in a row */
     align-items: center; 
@@ -29,4 +36,55 @@ nav, #nav-left, #nav-right {
     height: 40px;
     color: white;
     font-weight: bold;
+}
+
+/* SEARCH AREA */
+#main-section {
+    text-align: center;
+    margin-top: 200px;
+}
+
+/* LOGO */
+#search-bar {
+    margin: 20px;
+    border: 2px solid rgb(223,225,229);
+    width: 500px;
+    height: 40px;
+    border-radius: 30px;
+    font-family: FontAwesome;
+    padding-left: 50px;
+    z-index: 5;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+#search-icon {
+    position: relative;
+    top: 0px;
+    left: 60px;
+    z-index: 1;
+}
+#search-bar:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+#search-bar:focus {
+    outline: none;
+}
+#search-bar:active {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+#search-submit {
+    font-size: 14px;
+    height: 35px;
+    width: 125px;
+    background-color: rgb(235, 233, 233);
+    color: #575757;
+    border-radius: 5px;
+    border: none;
+}
+
+#search-submit:hover {
+    border: 1px solid grey;
 }
